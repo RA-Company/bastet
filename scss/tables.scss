@@ -1,0 +1,22 @@
+th[sortable] {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  font-weight: bold !important;
+}
+
+th[sortable].desc:before, th[sortable].asc:before {
+  content: '\e5d8';
+  display: block;
+  color: var(--bs-body-color);
+  font-family: 'Material Symbols Outlined';
+  background-size: 22px;
+  width: 22px;
+  height: 22px;
+  float: left;
+  margin-left: -10px;
+}
+
+th[sortable].desc:before {
+  content: '\e5db';
+}

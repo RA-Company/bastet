@@ -1,0 +1,61 @@
+.ng-select {
+  &.ng-select-opened {
+    > .ng-select-container {
+      color: var(--bs-body-color);
+      background-color: var(--bs-body-bg);
+    }
+  }
+
+  &.ng-select-focused {
+    &:not(.ng-select-opened) > .ng-select-container {
+      border-color: var(--bs-border-color);
+      box-shadow: 0 0 #FFFFFF00;
+    }
+  }
+
+  .ng-select-container {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+  }
+
+  &.ng-select-multiple {
+    .ng-select-container {
+      .ng-value-container {
+        .ng-value {
+          color: var(--bs-dropdown-link-hover-color);
+          background-color: var(--bs-dropdown-link-hover-bg);
+
+          .ng-value-icon {
+            &:hover {
+              background-color: var(--bs-dropdown-link-hover-bg-over);
+            }
+            &.left {
+              border-right: 1px solid var(--bs-border-color);;
+            }
+          }
+        }
+        .ng-input {
+          > input {
+            color: var(--bs-body-color);
+          }
+        }
+      }
+    }
+  }
+}
+
+.ng-dropdown-panel {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+
+  .ng-dropdown-panel-items {
+    .ng-option {
+      color: var(--bs-body-color);
+      background-color: var(--bs-body-bg);
+      &.ng-option-marked {
+        color: var(--bs-dropdown-link-hover-color);
+        background-color: var(--bs-dropdown-link-hover-bg);
+      }
+    }
+  }
+}

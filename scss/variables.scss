@@ -1,0 +1,23 @@
+$login-bg-gradient-color: #3d78e3;
+$footer-height: 60px;
+
+:root {
+  --bs-body-font-family: "Nunito", sans-serif;
+  --bs-body-font-size: 0.875rem;
+
+
+
+  --nav-link-color: rgba(0, 0, 0, 0.55);
+  --nav-hover-color: rgba(0, 0, 0, 0.7);
+  --nav-active-color: rgba(0, 0, 0, 0.9);
+  --heading-color: #495057;
+}
+
+.card {
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-padding-y: 1rem;
+}
+
+.pagination {
+  --bs-pagination-focus-box-shadow: 0 0 0 0.0 rgba(13, 110, 253, 0);
+}

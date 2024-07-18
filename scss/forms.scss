@@ -1,0 +1,53 @@
+.form-control {
+  border: 1px solid var(--bs-border-color);
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+}
+
+.form-control-plaintext {
+  color: var(--bs-body-color);
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+  border-color: rgba(var(--bs-danger-rgb), 1);
+  &:focus {
+    outline: 0;
+    border-color: rgba(var(--bs-danger-rgb), 1);
+    box-shadow: 0 0 #FFFFFF00;
+  }
+}
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: var(--ra-focus-border-color);
+  outline: 0;
+  box-shadow: 0 0 #FFFFFF00;
+}
+
+.form-check-input:checked {
+  background-color: rgba(var(--bs-primary-rgb), 1);
+  border-color: rgba(var(--bs-primary-rgb), 1);
+}
+
+.form-select {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  border-color: var(--bs-border-color);
+  background-image: var(--ra-btn-select-image);
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 #FFFFFF00;
+    border-color: var(--bs-border-color);
+  }
+}
+
+.input-group-text {
+  color: var(--bs-body-color);
+  background-color: var(--bs-border-color);
+  border: 1px solid var(--bs-border-color);
+}
+
+.form-check-input:focus {
+  box-shadow: 0 0 #FFFFFF00;
+}

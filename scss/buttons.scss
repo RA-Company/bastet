@@ -1,0 +1,23 @@
+.btn-ghost-secondary:hover, .btn-ghost-secondary:focus, .btn-ghost-secondary:active {
+  color: rgba(var(--ra-ghost-button-hover-color), 1) !important;
+  background-color: rgba(var(--ra-ghost-button-hover-color), 0.1) !important;
+  border-color: transparent !important;
+}
+
+.btn-close {
+  color: var(--bs-body-color) !important;
+  background: var(--ra-btn-close-bg);
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 #FFFFFF00;
+  }
+}
+
+button:focus, .btn:focus-visible {
+  outline: 0 !important;
+  box-shadow: 0 0 #FFFFFF00;
+}
+
+.btn-link {
+  text-decoration: none;
+}

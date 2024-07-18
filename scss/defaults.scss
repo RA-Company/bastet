@@ -1,0 +1,90 @@
+body {
+  padding: 0;
+}
+
+.invalid-feedback {
+  color: rgba(var(--bs-danger-rgb), 1);
+}
+
+.dropdown-toggle:after {
+  display: inline-block;
+  margin-left: 0.255em;
+  font-size: 15px;
+  line-height: 15px;
+  content: "\e5cf";
+  font-family: Material Symbols Outlined;
+  vertical-align: 0;
+  border: 0px;
+}
+
+.change-layout-mode-icon:after {
+  font-size: 20px;
+  content: var(--ra-mode-symbol);
+  font-family: Material Symbols Outlined;
+  width: 32px;
+  height: 32px;
+  padding-right: 10px;
+  cursor: pointer;
+  color: var(--bs-nav-link-color);
+}
+
+.change-layout-mode-icon:hover:after {
+  color: var(--bs-nav-link-hover-color);
+}
+
+.set-fullscreen-mode-icon:after {
+  font-size: 20px;
+  content: "\e5d0";
+  font-family: Material Symbols Outlined;
+  width: 32px;
+  height: 32px;
+  padding-right: 10px;
+  cursor: pointer;
+  color: var(--bs-nav-link-color);
+}
+
+.set-fullscreen-mode-icon:hover:after {
+  color: var(--bs-nav-link-hover-color);
+}
+
+.change-layout-mode-icon:hover:after {
+  color: var(--bs-nav-link-hover-color);
+}
+
+.ngb-dp-header {
+  background-color: var(--bs-gray-100) !important;
+}
+
+.ngb-dp-month-name {
+  background-color: var(--bs-gray-200) !important;
+}
+
+.ngb-dp-weekdays {
+  background-color: var(--bs-gray-100) !important;
+}
+
+.no-active {
+  cursor: pointer;
+}
+
+.chart-legend .legend-label {
+  color: var(--bs-body-color) !important;
+}
+
+.breakTooltip .tooltip-inner {
+  max-width: 1000px;
+  white-space: pre;
+  
+}
+
+@media (min-width: 1600px) {
+  .modal-xl {
+    --bs-modal-width: 1540px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .modal-xl {
+    --bs-modal-width: 1840px;
+  }
+}

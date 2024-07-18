@@ -1,0 +1,16 @@
+.nav-border-top .nav-link {
+  border-top: 3px solid transparent;
+}
+
+.nav-border-top .nav-link.active {
+  border-top-color: var(--bs-primary);
+}
+
+.nav-border-top-success .nav-link.active {
+  color: var(--bs-success);
+  border-top-color: var(--bs-success);
+}
+
+.nav-tabs .nav-link.active {
+  background-color: var(--bs-gray-100);
+}
