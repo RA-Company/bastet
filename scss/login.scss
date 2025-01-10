@@ -1,7 +1,7 @@
 .login-wrapper {
   overflow: hidden;
   .login-page-content{
-    padding-bottom: $footer-height;
+    padding-bottom: var(--footer-height);
     position: relative;
     z-index: 2;
     width: 100%;
